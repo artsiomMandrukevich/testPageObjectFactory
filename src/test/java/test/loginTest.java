@@ -34,11 +34,11 @@ public class loginTest {
 
     }
 
-//    @AfterTest
-//    public void closeWindow() {
-//        if (driver != null) {
-//            driver.close();
-//        }
-//    }
+    @AfterTest
+    public void closeWindow() {
+        if (driver != null) {
+            driver.close();
+        }
+    }
 
 }
